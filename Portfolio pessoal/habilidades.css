@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-style: initial;
+    color: #000000;
+    margin-left: 7%
+}
+
+#subtitulo {
+    font-style: initial;
+    color: #0000ff;
+    margin-left: 10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #e3e5f4;
+    font-style: initial;
+    font-size: 1em;
+    color: #000000;
+}

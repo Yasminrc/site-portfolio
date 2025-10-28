@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo"> Qual a sua dúvida? </h1>
+        <p id="subtitulo"> Complete as informações</p>
+        <br>
+    </div>
+    
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome"><strong> Nome </strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"> <strong>Sobrenome </strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+        
+        <div class="campo">
+            <label for="email"><strong> Email </strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+          <label for="contato"><strong> Contato </strong></label>
+          <input type="contato" name="contato" id="contato" required>
+        </div>
+
+        <div class="campo">
+          <label for="endereço"><strong> Endereço </strong></label>
+          <input type="endereço" name="endereço" id="endereço">
+        </div>
+
+        <div class="campo">
+          <label for="complemento"><strong> Complemento </strong></label>
+          <input type="complemento" name="complemento" id="complemento">
+        </div>
+
+        <div class="campo">
+          <label for="rg"><strong> RG </strong></label>
+          <input type="rg" name="rg" id="rg">
+        </div>
+
+        <div class="campo">
+          <label for="cpf"><strong> CPF </strong></label>
+          <input type="cpf" name="cpf" id="cpf">
+        </div>
+
+        
+        <div clas="campo">
+            <label for="selecione"> <strong>Selecione </strong></label>
+            <select id="selecione">
+                <option select disabled value=""> Selecione </option>
+                <option> Brasil</option>
+                <option> Estados Unidos</option>
+                <option> Japão</option>
+                <option> China</option>
+                <option> México</option>
+                <option> Rússia</option>
+            </select>
+        </div>
+        <br>
+
+        <fieldset class="grupo">
+            <div id="checkbox">
+                <label> <strong>Selecione sua idade : </strong></label> <br> <br>
+                <input type="checkbox" id="idade1" name="idade1" value="15 até 18">
+                <label for="idade1"> 15 até 18</label> 
+                 <input type="checkbox" id="idade2" name="idade2" value="19 até 24">
+                <label for="idade2"> 19 até 24</label>
+                 <input type="checkbox" id="idade3" name="idade3" value="25 até 29">
+                <label for="idade3"> 25 até 29</label> 
+                 <input type="checkbox" id="idade4" name="idade4" value="30 até 39">
+                <label for="idade4"> 30 até 39</label>  
+                 <input type="checkbox" id="idade5" name="idade5" value="40 até 49">
+                <label for="idade5">40 até 49</label> 
+                 <input type="checkbox" id="idade6" name="idade6" value="50 até 59">
+                <label for="idade6"> 50 até 59</label>
+                 <input type="checkbox" id="idade7" name="idade7" value="60 até 69+">
+                <label for="idade7"> 60 até 69+ </label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label> <strong>Mande a sua dúvida:</strong></label>
+                <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <button class="botao" type="submit"> <strong>Enviar</strong></button>
+    </form>
+</html>
